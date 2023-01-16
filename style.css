@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #081616;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* //-- NAVBAR SECTION --// */
+nav{
+    background-color: #0D2525;
+    padding: 1.75rem 0rem;
+}
+
+.navbar{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.global-text{
+    color: #0FCFCF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.artwork-text{
+    letter-spacing: 0.3rem;
+}
+
+.nav-right-part{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.nav-button{
+    padding: 0.5rem 1rem;
+    background-color: #0E3D3D;
+    border: #0FCFCF solid;
+    color: #fff;
+}
+
