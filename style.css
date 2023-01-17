@@ -108,12 +108,61 @@ nav{
     margin-top: 2rem;
 }
 
+.hero-head-bottom-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .hero-head-btm-text{
     text-align: center;
     font-size: 30px;
     font-weight: 600;
     margin: 6rem 0rem;
+    
 }
+
+/* supercharge-bar */
+
+.hero-supercharge-bar{
+    background-color: #0C4747;
+    height: 100px;
+    padding: 1.5rem 0rem;
+    width: 100vw;
+    margin-left: -10vw;
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 15rem;
+    position: relative;
+}
+
+.supercharge-bg1{
+    background-color: #0c474785;
+    height: 150px;
+    width: 125vw;
+    position: absolute;
+    top: 2rem;
+    z-index: -1;
+    transform: rotate(2.85deg);
+}
+
+.supercharge-bg2{
+    background-color: #0c47473d;
+    height: 150px;
+    width: 125vw;
+    position: absolute;
+    top: 4.4rem;
+    left: -1rem;
+    z-index: -2;
+    transform: rotate(5.5deg);
+}
+
+.supercharge-text{
+    font-size: 36px;
+    font-weight: 500;
+}
+
 
 /* //-- FOOTER SECTION --// */
 
