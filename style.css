@@ -242,3 +242,149 @@ li{
     margin-bottom: 0rem;
 }
 
+/* //-- <!--Section-2 Upcoming-Card-Section --> --// */
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    gap: 4rem;
+}
+
+.sec2-card-headings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow{
+    margin-left: 1rem;
+}
+
+.sec2-Cards-Section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+.card{
+    border: 2px solid #0FCFCF;
+    padding: 2rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 10px;
+}
+
+.sec2-card{
+    /* background-color: #0C3232; */
+    background:  linear-gradient(180deg, #013e3e, #042525);
+}
+
+.sec2-card>div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sec2-card-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-icon{
+    font-size: 34px;
+}
+
+.ethereum{
+    color: #0FCFCF;
+}
+
+.meta{
+    color: #195dda;
+    font-size: 22px;
+}
+
+.pixel-pix{
+    position: relative;
+    top: -1rem;
+    left: 1rem;
+}
+
+.stat-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.stat-btn{
+    padding: 0.75rem 1rem;
+    background-color: #113f3f;
+    border-radius: 35px;
+    font-size: 13px;
+}
+
+
+.range-bar{
+    
+    width: 90%;
+    background-color: #013e3e;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 2rem;
+    padding-top: 0.75rem;
+    position: relative;
+}
+
+.range-inner-bar{
+    background-color: #146161;
+    height: 52px;
+    width: 36%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    z-index: 0;
+}
+
+.percent-num{
+    position: relative;
+    z-index: 1;
+}
+
+.card-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-numbers{
+    font-size: 20px;
+    color: #A1ABAA;
+}
+
+.card-icons{
+    color: #A1ABAA;
+    gap: 1.2rem;
+}
+
+.participate-btn{
+    border: 2px solid #A1ABAA;
+    border-radius: 30px;
+    padding: 0.3rem 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.sec2-card-heading>div{
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+
