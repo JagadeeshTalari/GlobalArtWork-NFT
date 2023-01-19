@@ -20,6 +20,8 @@ a{
     text-decoration: none;
     color: #fff;
 }
+/* /////////////////////////////////////////////////////// */
+
 
 /* //-- NAVBAR SECTION --// */
 nav{
@@ -64,6 +66,8 @@ nav{
     border: #0FCFCF solid;
     color: #fff;
 }
+/* /////////////////////////////////////////////////////////////////////// */
+
 
 /* //-- HERO-SECTION --// */
 
@@ -169,6 +173,7 @@ nav{
     font-size: 36px;
     font-weight: 500;
 }
+/* //////////////////////////////////////////////// */
 
 
 /* //-- <!--Section-2 Upcoming-Card-Section --> --// */
@@ -182,15 +187,18 @@ nav{
     margin-top: 0;
 }
 
+/* >>  section2-Heading */
 .sec2-card-side-headings{
     display: flex;
     justify-content: space-between;
 }
 
+/* > */
 .arrow{
     margin-left: 1rem;
 }
 
+/* >>>>  Section2-Cards */
 .sec2-Cards-Section{
     display: flex;
     flex-direction: row;
@@ -198,6 +206,8 @@ nav{
     gap: 2.5rem;
 }
 
+
+/* >>>       -4 */
 .card{
     border: 2px solid #0FCFCF;
     padding: 2rem 1.75rem;
@@ -206,13 +216,10 @@ nav{
     gap: 1.5rem;
     border-radius: 10px;
     background:  linear-gradient(180deg, #013e3e, #042525);
-}
+}/* || common-card for every card in the page */
 
-.sec2-card{
-    /* background-color: #0C3232; */
-    background:  linear-gradient(180deg, #013e3e, #042525);
-}
 
+/* >>       -4 */
 .sec2-card>div{
     display: flex;
     flex-direction: row;
@@ -220,17 +227,30 @@ nav{
 
 }
 
-.sec2-card-icons{
-    display: flex;
-    font-size: 24px;
-    gap: 1rem;
-    color: #d1d4d4;
-}
-
+/* >>        -4 */
 .sec2-card-heading{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/* > */
+.sec2-card-heading>div{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.sec2-card-heading h1{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.sec2-card-heading p{
+    color: #b3b5b5;
+}
+
+.sec2-card-heading span{
+    font-size: 11px;
 }
 
 .card-icon{
@@ -252,6 +272,7 @@ nav{
     left: 1rem;
 }
 
+/* >>        -4 */
 .stat-buttons{
     display: flex;
     flex-direction: row;
@@ -260,28 +281,40 @@ nav{
 
 }
 
+/* > */
 .stat-btn{
-    padding: 0.75rem 1rem;
-    background-color: #113f3f;
+    padding: 0.65rem 1rem;
+    background-color: #013e3e;
     border-radius: 35px;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 2rem;
 }
 
+.stat-btn span{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 0.2rem;
+}
 
+/* >>    -4 */
 .range-bar{
     
     width: 90%;
     background-color: #013e3e;
-    height: 40px;
+    height: 44px;
     border-radius: 25px;
-    padding-left: 2rem;
-    padding-top: 0.75rem;
+    padding-left: 1.75rem;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* > */
 .range-inner-bar{
     background-color: #146161;
-    height: 52px;
+    height: 44px;
     width: 36%;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -296,21 +329,27 @@ nav{
     z-index: 1;
 }
 
-.card-icons{
-    display: flex;
-    flex-direction: row;
+.percent-num2{
+    width: 28%;
 }
 
+.percent-num3{
+    width: 18%;
+}
+
+/* >> */
 .card-numbers{
-    font-size: 20px;
+    font-size: 18px;
     color: #A1ABAA;
 }
 
-.card-icons{
-    color: #A1ABAA;
-    gap: 1.2rem;
+/* > */
+.BUSD{
+    color: #fff;
 }
 
+
+/* >> */
 .participate-btn{
     border: 2px solid #A1ABAA;
     border-radius: 30px;
@@ -318,14 +357,30 @@ nav{
     display: flex;
     align-items: center;
     margin-right: 5rem;
+    font-weight: 500;
 }
 
-.sec2-card-heading>div{
+.sec2-card-icons{
     display: flex;
-    gap: 1.5rem;
+    font-size: 24px;
+    gap: 1rem;
+    color: #d1d4d4;
 }
+
+.card-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-icons{
+    color: #A1ABAA;
+    gap: 1.2rem;
+}
+/* ///////////////////////////////////////////// */
+
 
 /* <!-- Section-3 Utilites-Section --> */
+
 .section3{
     display: flex;
     flex-direction: column;
@@ -377,6 +432,8 @@ nav{
     position: absolute;
     bottom: 0;
 }
+/* ///////////////////////////////////////////////////////////////////// */
+
 
 /* //--  <!-- Section-4 Activity --> --//*/
 
@@ -508,6 +565,8 @@ nav{
     width: 100%;
     background-color: #5f6161;
 }
+/* ///////////////////////////////////////////////////////////////////// */
+
 
 /* <!-- Section-5 OurTeam --> */
 .section5{
@@ -573,6 +632,7 @@ nav{
 .sam-walton-name{
     margin-top: 0.25rem;
 }
+/* ////////////////////////////////////////////////////////////////////// */
 
 
 /* <!-- Section-6 FAQ-Section --> */
@@ -619,6 +679,8 @@ nav{
 .faq2{
     text-align: left;
 }
+/* //////////////////////////////////////////////////////////////// */
+
 
 /* <!-- Section-7 Join-Community-Section --> */
 
@@ -630,6 +692,8 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+/* ////////////////////////////////////////////////////////////////////// */
 
 
 /* //-- FOOTER SECTION --// */
