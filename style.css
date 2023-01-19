@@ -11,6 +11,8 @@ body{
     background-color: #081616;
     color: #fff;
     font-family: "poppins";
+    padding: 0;
+    margin: 0;
     overflow-x: clip;
 }
 
@@ -132,11 +134,11 @@ nav{
     height: 100px;
     padding: 1.5rem 0rem;
     width: 100vw;
-    margin-left: -10vw;
     display: flex;
     gap: 5rem;
     margin-bottom: 15rem;
     position: relative;
+    left: -9.5vw;
 }
 
 .supercharge-bg1{
@@ -144,6 +146,7 @@ nav{
     height: 150px;
     width: 100vw;
     position: absolute;
+    left: -0.5vw;
     top: 1.5rem;
     z-index: -1;
     transform: rotate(2.85deg);
@@ -153,10 +156,10 @@ nav{
 .supercharge-bg2{
     background-color: #0c47473d;
     height: 140px;
-    width: 102vw;
+    width: 100vw;
     position: absolute;
     top: 3.45rem;
-    left: -0.25rem;
+    left: -0.55vw;
     z-index: -2;
     transform: rotate(5.5deg);
     overflow-x: none;
@@ -332,8 +335,8 @@ nav{
     
 }
 
-.sec3-card-heading{
-    font-size: 36px;
+.sec3-card-heading, .common-sec-heading{
+    font-size: 35px;
     text-align: center;
 }
 
@@ -387,13 +390,88 @@ nav{
     gap: 2rem;
 }
 
+.text-color{
+    color: #d9dddd;
+}
+
+.filter-btns{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.filter-btns>button{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 12vw;
+    background:  linear-gradient(180deg, #013e3e, #042525);
+    color: #fff;
+    border: #0FCFCF 1px solid;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.filter-btns i{
+    font-size: 20px;
+}
+
 .Activity-stats{
     width: 100%;
+    gap: 0.75rem;
+    padding-top: 3.5rem;
+}
+
+.dashed-line{
+
+    border-style: dashed;
+    border-color:  #5f6161;
+    border-width: 1px;
+    margin-top: 2.6rem;
+    /* border-bottom-color: #5f6161; */   
+}
+
+.product-headings{
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .product-elements{
     display: flex;
-    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.product-elements>div:nth-child(1){
+    width: 23%;
+    justify-content: flex-start;
+}
+
+.product-elements>div:nth-child(2){
+    width: 10%;
+    justify-content: center;
+}
+
+.product-elements>div:nth-child(3){
+    width: 10%;
+    justify-content: center;
+}
+
+.product-elements>div:nth-child(4){
+    width: 8%;
+    justify-content: center;
+}
+
+.product-elements>div:nth-child(5){
+    width: 6%;
+    justify-content: center;
+}
+
+.product-elements>div:nth-child(6){
+    width: 6%;
+    justify-content: center;
 }
 
 .product-elements>*{
@@ -401,6 +479,11 @@ nav{
     gap: 0.5rem;
     justify-content: center;
     align-items: center;
+    /* outline: 1px solid #b0b610; */
+}
+
+.SNo{
+    padding-right: 1rem;
 }
 
 .num-color-green{
@@ -408,7 +491,16 @@ nav{
 }
 
 .num-color-red{
-    color: #c5130d;
+    color: #eb1313;
+    
+}
+
+.FloorPrice-value>*{
+    width: 20%;
+}
+
+.product-img-crop{
+    border-radius: 50%;
 }
 
 .line{
