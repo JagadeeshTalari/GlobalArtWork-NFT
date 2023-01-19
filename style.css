@@ -51,20 +51,53 @@ nav{
 .nav-right-part{
     display: flex;
     flex-direction: row;
-    gap: 10rem;
+    gap: 12rem;
 }
 
 .nav-list{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 4rem;
 }
 
 .nav-button{
-    padding: 0.5rem 1rem;
-    background-color: #0E3D3D;
-    border: #0FCFCF solid;
+    padding: 1.1rem 2.25rem;
+    background:  linear-gradient(180deg, #013e3e, #042525);
+    border: #0FCFCF solid 2px;
     color: #fff;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 600;
+}
+
+.nav-button:hover,.nav-button:hover .rhombus{
+    background:  linear-gradient(-10deg, #013e3e, #11b5b5c5);
+}
+
+.rhombus, .rhombus2{
+    height: 12px;
+    width: 12px;
+    border: #0FCFCF 2px solid;
+    position: absolute;
+    left: -1.4rem;
+    transform: rotate(45deg);
+}
+
+.rhombus2{
+    left: -0.65rem;
+    top: 0.95rem;
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    background-color: #0D2525;
+    border-right: none;
+    border-bottom: none;
+    transform: rotate(135deg);
+    clip-path: polygon(0% 0%,
+    00% 100%,
+    100% 0%,
+     0% 0%);
 }
 /* /////////////////////////////////////////////////////////////////////// */
 
@@ -89,6 +122,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .NFT{
@@ -98,6 +132,18 @@ nav{
     padding: 0;
     height: 360px;
     margin-top: -6rem;
+}
+
+.background-glow{
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    background: radial-gradient(transparent );
+    box-shadow: 12px 12px 380px 190px #0ab9b982 ;
+    position: absolute;
+    top: 2rem;
+    left: 9rem;
+    z-index: -1;
 }
 
 .scribble-img{
@@ -291,6 +337,10 @@ nav{
     margin-bottom: 2rem;
 }
 
+.stat-btn:hover{
+    background-color: #146161;
+}
+
 .stat-btn span{
     font-weight: 600;
     font-size: 14px;
@@ -358,6 +408,12 @@ nav{
     align-items: center;
     margin-right: 5rem;
     font-weight: 500;
+}
+
+.participate-btn:hover{
+    border: 2px solid #4f5453;
+    background-color: #a1abaac0;
+    color: #1e1f1f;
 }
 
 .sec2-card-icons{
@@ -468,6 +524,10 @@ nav{
     border-radius: 10px;
     font-weight: 600;
     font-size: 16px;
+}
+
+.filter-btns>button:hover{
+background:  linear-gradient(-10deg, #023b3b, #1dafafdc);
 }
 
 .filter-btns i{
@@ -602,6 +662,12 @@ nav{
     gap: 0.7rem;
 }
 
+.ourTeam-card:hover{
+    background:  linear-gradient(-10deg, #032a2a, #198787dc);
+    transform: scale(1.03);
+    transition-delay: 20ms;
+    }
+
 .ourTeam-img-3-edit{
     
     clip-path: circle(36%);
@@ -734,8 +800,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 3rem 0rem;
 }
 
 .section7 h3{
@@ -775,6 +840,12 @@ nav{
     color: #fff;
     background-color: transparent;
     border: solid 1.95px #9a9c9c7f; 
+}
+
+.whitelistNow-btn:hover{
+    background-color: #0FCFCF;
+    color: #303232;
+    font-weight: 600;
 }
 
 /* ////////////////////////////////////////////////////////////////////// */
