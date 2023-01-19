@@ -520,6 +520,11 @@ nav{
     gap: 2rem;
 }
 
+.common-sec-text{
+    color: #d9dddd;
+    font-size: 19px;
+}
+
 .OurTeam-card-Section{
     width: 100%;
     display: flex;
@@ -535,7 +540,40 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.7rem;
 }
+
+.ourTeam-img-3-edit{
+    
+    clip-path: circle(36%);
+}
+
+.ourTeam-img-3-edit{
+    
+    clip-path: circle(36%);
+}
+
+.ourTeam-img-4-edit{
+    
+    clip-path: circle(40%);
+    height: 140px;
+}
+
+.Team-member-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Team-member-role{
+    color: #bfc2c2;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.sam-walton-name{
+    margin-top: 0.25rem;
+}
+
 
 /* <!-- Section-6 FAQ-Section --> */
 .section6{
