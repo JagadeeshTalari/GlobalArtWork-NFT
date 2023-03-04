@@ -267,7 +267,7 @@ nav {
   }
 
   .hero-heading {
-    font-size: 100px;
+    font-size: 104px;
     font-weight: 800;
     letter-spacing: 0.2rem;
   }
@@ -288,6 +288,39 @@ nav {
   .Nft-right-sec {
     font-size: 50px;
     gap: 1rem;
+  }
+
+  .hero-head-bottom-sec {
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .hero-head-btm-text {
+    margin: 1rem 0rem;
+    margin-bottom: 6rem;
+  }
+
+  /* super charge media query */
+
+  .hero-supercharge-bar {
+    padding: 1.5rem 0rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 15rem;
+    position: relative;
+    left: -5.8vw;
+  }
+
+  .supercharge-bg1,
+  .supercharge-bg2 {
+    left: 0vw;
+  }
+
+  .supercharge-text {
+    font-size: 30px;
+    font-weight: 500;
   }
 }
 
@@ -577,6 +610,38 @@ nav {
 .card-icons {
   color: #a1abaa;
   gap: 1.2rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .section2 {
+    overflow: none;
+    width: 88vw;
+  }
+
+  /* >>>>  Section2-Cards */
+  .sec2-Cards-Section {
+    gap: 1.5rem;
+  }
+
+  /* >>>       -4 */
+  .card {
+    border: 2px solid #0fcfcf;
+    padding: 2rem 1.75rem;
+    gap: 1.25rem;
+  }
+
+  /* >*/
+  .sec2-card-heading > div {
+    gap: 1.25rem;
+  }
+
+  .card-headings-text {
+    padding-top: 1.25rem;
+  }
+
+  .sec2-card-img {
+    width: 115px;
+  }
 }
 
 @media screen and (max-width: 1435px) {
