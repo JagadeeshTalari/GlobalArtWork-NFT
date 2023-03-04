@@ -1095,6 +1095,42 @@ nav {
   color: #a1abaa;
   margin-top: 1.5rem;
 }
+
+@media screen and (max-width: 1300px) {
+  .common-sec-text {
+    font-size: 17px;
+  }
+
+  .OurTeam-card-Section {
+    gap: 0.75rem;
+  }
+
+  .ourTeam-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .ourTeam-card > img {
+    width: 120px;
+  }
+
+  .ourTeam-img-3-edit {
+    width: 130px;
+  }
+
+  .ourTeam-img-4-edit {
+    clip-path: circle(36%);
+    width: 75px;
+    height: 100px;
+  }
+
+  .Team-member-name {
+    font-size: 16px;
+  }
+
+  .Team-member-role {
+    font-size: 14px;
+  }
+}
 /* //////////////////////////////////////////////////////////////// */
 
 /* <!-- Section-7 Join-Community-Section --> */
