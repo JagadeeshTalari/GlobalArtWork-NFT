@@ -1096,13 +1096,14 @@ nav {
   margin-top: 1.5rem;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
   .common-sec-text {
     font-size: 17px;
   }
 
   .OurTeam-card-Section {
-    gap: 0.75rem;
+    gap: 1.25rem;
+    justify-content: space-between;
   }
 
   .ourTeam-card {
@@ -1129,6 +1130,13 @@ nav {
 
   .Team-member-role {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .OurTeam-card-Section {
+    gap: 0.75rem;
+    justify-content: space-between;
   }
 }
 /* //////////////////////////////////////////////////////////////// */
@@ -1268,4 +1276,33 @@ li {
   text-align: center;
   color: #949898;
   margin-bottom: 0rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .logo-footer-text {
+    font-size: 14px;
+  }
+  .main-footer-left-part {
+    width: 32%;
+  }
+
+  .logo-footer-text > p > br {
+    display: none;
+  }
+
+  .footer-lists > li {
+    font-size: 14px;
+  }
+
+  .list-head {
+    font-style: 17px;
+  }
+
+  .main-footer-right-part > .icons-list > i {
+    font-size: 24px;
+  }
+
+  .copywrite {
+    font-size: 13px;
+  }
 }
